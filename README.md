@@ -1,10 +1,10 @@
-# ITzone360 Widgets
+# Custom Elementor Widgets
 
 Production-ready custom Elementor widgets — built with PHP and the WordPress Plugin API.
 
 Lightweight, dependency-light (no jQuery in custom JS), and built to pass WordPress.org Plugin Check on Plugin Repo, Security, General, Performance, and Accessibility categories.
 
-**WordPress.org:** [wordpress.org/plugins/itzone360-widgets](https://wordpress.org/plugins/itzone360-widgets/) *(pending review)*
+
 
 ---
 

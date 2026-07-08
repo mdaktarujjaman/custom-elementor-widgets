@@ -125,3 +125,78 @@
     background: #1040b0;
     color: #fff;
 }
+
+/* Counter */
+.cew-counter {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cew-counter__number {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1a56db;
+}
+
+.cew-counter__label {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Team Member */
+.cew-team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.cew-team-member__photo img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.cew-team-member__name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 0 0;
+    color: #111;
+}
+
+.cew-team-member__position {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a56db;
+    margin: 0;
+}
+
+.cew-team-member__desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 4px 0 0;
+}
+
+.cew-team-member__social {
+    display: flex;
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.cew-team-member__social a {
+    color: #555;
+    font-size: 16px;
+    line-height: 1;
+    transition: color .2s ease;
+}
+
+.cew-team-member__social a:hover {
+    color: #1a56db;
+}

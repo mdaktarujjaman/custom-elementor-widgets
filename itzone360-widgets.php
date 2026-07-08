@@ -88,6 +88,7 @@ final class ITzone360_Widgets {
 	public function __construct() {
 		add_action( 'elementor/widgets/register', array( $this, 'register_widgets' ) );
 		add_action( 'elementor/frontend/after_enqueue_styles', array( $this, 'enqueue_styles' ) );
+		add_action( 'elementor/frontend/after_register_scripts', array( $this, 'register_scripts' ) );
 	}
 
 	/**
@@ -100,10 +101,28 @@ final class ITzone360_Widgets {
 		require_once ITZONE360_WIDGETS_PATH . 'widgets/info-card-widget.php';
 		require_once ITZONE360_WIDGETS_PATH . 'widgets/cta-button-widget.php';
 		require_once ITZONE360_WIDGETS_PATH . 'widgets/feature-box-widget.php';
+		require_once ITZONE360_WIDGETS_PATH . 'widgets/counter-widget.php';
+		require_once ITZONE360_WIDGETS_PATH . 'widgets/team-member-widget.php';
 
 		$widgets_manager->register( new Itzone360_Info_Card_Widget() );
 		$widgets_manager->register( new ITzone360_CTA_Button_Widget() );
 		$widgets_manager->register( new Itzone360_Feature_Box_Widget() );
+		$widgets_manager->register( new Itzone360_Counter_Widget() );
+		$widgets_manager->register( new Itzone360_Team_Member_Widget() );
+	}
+
+	/**
+	 * Register frontend scripts (registered here, enqueued per-widget via get_script_depends()).
+	 */
+	public function register_scripts() {
+
+		wp_register_script(
+			'itzone360-counter',
+			ITZONE360_WIDGETS_URL . 'assets/js/counter.js',
+			array(),
+			ITZONE360_WIDGETS_VERSION,
+			true
+		);
 	}
 
 	/**

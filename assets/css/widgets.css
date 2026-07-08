@@ -1,0 +1,127 @@
+/* assets/css/widgets.css */
+
+.cew-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 32px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0,0,0,.08);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.cew-info-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+}
+
+.cew-info-card__icon i {
+    font-size: 40px;
+    color: #1a56db;
+}
+
+.cew-info-card__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #111;
+}
+
+.cew-info-card__desc {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.cew-info-card__btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 24px;
+    background: #1a56db;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background .2s ease;
+}
+
+.cew-info-card__btn:hover {
+    background: #1040b0;
+    color: #fff;
+}
+
+.cew-cta-wrap { text-align: center; }
+.cew-cta-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #1a56db;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: opacity .2s ease;
+}
+.cew-cta-btn:hover { opacity: 0.85; color: #fff; }
+
+/* Feature Box */
+.cew-feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    background: #fff;
+    border-radius: 8px;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.cew-feature-box-lift-yes:hover {
+    transform: translateY(-6px);
+}
+
+.cew-feature-box__icon i {
+    font-size: 40px;
+    color: #1a56db;
+}
+
+.cew-feature-box__icon img {
+    width: 64px;
+    height: auto;
+    display: block;
+}
+
+.cew-feature-box__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #111;
+}
+
+.cew-feature-box__desc {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.cew-feature-box__btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 24px;
+    background: #1a56db;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background .2s ease;
+}
+
+.cew-feature-box__btn:hover {
+    background: #1040b0;
+    color: #fff;
+}

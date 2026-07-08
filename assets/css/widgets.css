@@ -260,3 +260,116 @@
     font-size: 13px;
     color: #777;
 }
+
+/* Pricing Box */
+.cew-pricing-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+    gap: 16px;
+}
+
+.cew-pricing-box-featured-yes .cew-pricing-box {
+    border: 2px solid #1a56db;
+}
+
+.cew-pricing-box__badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a56db;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+
+.cew-pricing-box__plan-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cew-pricing-box__price {
+    font-size: 44px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1;
+}
+
+.cew-pricing-box__currency {
+    font-size: 0.5em;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+.cew-pricing-box__period {
+    font-size: 0.35em;
+    font-weight: 400;
+    color: #777;
+    margin-left: 4px;
+}
+
+.cew-pricing-box__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+.cew-pricing-box__feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.cew-pricing-box__feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+.cew-pricing-box__feature-icon--yes {
+    color: #2e9e5b;
+}
+
+.cew-pricing-box__feature-icon--no {
+    color: #c0c0c0;
+}
+
+.cew-pricing-box__btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 24px;
+    background: #1a56db;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background .2s ease;
+}
+
+.cew-pricing-box__btn:hover {
+    background: #1040b0;
+    color: #fff;
+}

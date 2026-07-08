@@ -200,3 +200,63 @@
 .cew-team-member__social a:hover {
     color: #1a56db;
 }
+
+/* Testimonial */
+.cew-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.cew-testimonial__rating {
+    display: flex;
+    gap: 2px;
+    font-size: 16px;
+}
+
+.cew-testimonial__star {
+    line-height: 1;
+}
+
+.cew-testimonial__star--filled {
+    color: #f5a623;
+}
+
+.cew-testimonial__star--empty {
+    color: #e0e0e0;
+}
+
+.cew-testimonial__review {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+    margin: 0;
+}
+
+.cew-testimonial__client {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cew-testimonial__photo img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.cew-testimonial__name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+}
+
+.cew-testimonial__company {
+    font-size: 13px;
+    color: #777;
+}

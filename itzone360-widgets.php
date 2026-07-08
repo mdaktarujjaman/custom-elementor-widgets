@@ -103,12 +103,14 @@ final class ITzone360_Widgets {
 		require_once ITZONE360_WIDGETS_PATH . 'widgets/feature-box-widget.php';
 		require_once ITZONE360_WIDGETS_PATH . 'widgets/counter-widget.php';
 		require_once ITZONE360_WIDGETS_PATH . 'widgets/team-member-widget.php';
+		require_once ITZONE360_WIDGETS_PATH . 'widgets/testimonial-widget.php';
 
 		$widgets_manager->register( new Itzone360_Info_Card_Widget() );
 		$widgets_manager->register( new ITzone360_CTA_Button_Widget() );
 		$widgets_manager->register( new Itzone360_Feature_Box_Widget() );
 		$widgets_manager->register( new Itzone360_Counter_Widget() );
 		$widgets_manager->register( new Itzone360_Team_Member_Widget() );
+		$widgets_manager->register( new Itzone360_Testimonial_Widget() );
 	}
 
 	/**

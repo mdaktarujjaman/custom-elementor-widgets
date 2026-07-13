@@ -1,4 +1,4 @@
-# Custom Elementor Widgets
+# ITzone360 Widgets
 
 Production-ready custom Elementor widgets — built with PHP and the WordPress Plugin API.
 
